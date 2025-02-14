@@ -13,7 +13,7 @@ export class CardDavNode implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'CardDAV Node',
 		name: 'cardDavNode',
-		icon: 'file:CardDavNode.svg',
+		icon: 'file:CardDav.svg',
 		group: ['output'],
 		version: 1,
 		subtitle: '={{ $parameter["operation"] + ": " + $parameter["resource"] }}',
